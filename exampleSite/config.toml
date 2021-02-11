@@ -6,10 +6,14 @@ summaryLength = "10"
 theme = "northendlab-hugo"
 title = "Escuela Privada Ebenezer"
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
+URL = "tools"
+name = "tools"
+weight = 2
 [[menu.footer]]
+URL = "contact"
+name = "Contacto"
+weight = 1
+[[menu.main]]
 URL = "tools"
 name = "tools"
 weight = 2
@@ -17,10 +21,6 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 1
-[[menu.main]]
-URL = "tools"
-name = "tools"
-weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
